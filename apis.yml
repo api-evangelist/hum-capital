@@ -1,8 +1,14 @@
 aid: hum-capital
 name: Hum Capital
-description: 'Hum Capital is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hum Capital operates an AI-powered funding marketplace that connects growth companies
+  with the right institutional capital. Through its Intelligent Capital Market platform, companies
+  share their financial and operating data once and are matched to a network of 900+ lenders and
+  investors for non-dilutive and structured financing (typically $1M-$50M), while investors receive
+  curated, data-driven deal flow. Hum reports more than $700M in capital deployed across 6,000+
+  companies. Headquartered in New York, the company operates in the financial services, capital
+  markets, and alternative-financing sector. This API Evangelist profile was surfaced as a portfolio
+  company of Partech and enriched from the company''s public web surface; Hum publishes no public
+  developer API, so this entry is identity- and security-focused.'
 url: https://raw.githubusercontent.com/api-evangelist/hum-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://humcapital.com/wp-content/uploads/2023/01/hum-yoast.jpg
 tags:
 - Company
 - Financial Services
+- Capital Markets
+- Fintech
+- Lending
+- Alternative Financing
+- Investment
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://humcapital.com/
+- type: About
+  url: https://humcapital.com/our-story/
+- type: SignUp
+  url: https://icm.humcapital.com/signup
+- type: Login
+  url: https://icm.humcapital.com/login
+- type: Support
+  url: https://info.humcapital.com/hum-help-center
+- type: Blog
+  url: https://humcapital.com/resources/
+- type: PrivacyPolicy
+  url: https://humcapital.com/privacy-policy/
+- type: TermsOfService
+  url: https://humcapital.com/terms-of-service/
+- type: DomainSecurity
+  url: security/hum-capital-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
